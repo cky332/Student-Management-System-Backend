@@ -5,19 +5,24 @@
 
 #### 软件架构
 软件架构说明
+1、数据库: 使用MySQL进行数据存储。
+2、API: 使用Express.js (Node.js框架)来搭建RESTful API。
+3、安全: 使用JWT进行身份验证和授权。
+4、缓存: 使用Redis来提高数据访问速度。
 
 
 #### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1、克隆此仓库到本地: git clone [仓库地址]
+2、进入项目目录: cd [项目目录]
+3、安装所有依赖: npm install
+4、设置数据库连接信息在config/db.js
+5、运行项目: npm start
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1、通过/api/register接口进行注册。
+2、使用/api/login接口登录并获取token。
+3、访问/api/students以查看学生列表。确保传递JWT token以验证。
+4、使用相应的API接口进行学生、课程和成绩的CRUD操作。
 
 #### 参与贡献
 
